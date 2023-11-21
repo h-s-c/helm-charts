@@ -79,6 +79,31 @@ entries:
     version: 4.5.1
   jellyfin:
   - apiVersion: v2
+    appVersion: 10.8.12
+    created: "2023-11-21T15:53:26.645095862Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.k8s-at-home.com
+      version: 4.5.2
+    description: Jellyfin is a Free Software Media System
+    digest: de020c370a17a0b8a9c8e1e8e1b2f709a19c70338c5b923179f2a0545960bc2f
+    home: https://github.com/h-s-c/helm-charts/jellyfin
+    icon: https://raw.githubusercontent.com/jellyfin/jellyfin-ux/master/branding/SVG/icon-solid-black.svg
+    keywords:
+    - jellyfin
+    - plex
+    - emby
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - name: Kevin Schmidt
+    name: jellyfin
+    sources:
+    - https://hub.docker.com/r/jellyfin/jellyfin
+    - https://github.com/jellyfin/jellyfin
+    urls:
+    - https://github.com/h-s-c/helm-charts/releases/download/jellyfin-9.6.2/jellyfin-9.6.2.tgz
+    version: 9.6.2
+  - apiVersion: v2
     appVersion: 10.8.11
     created: "2023-11-21T15:48:22.164505705Z"
     dependencies:
@@ -128,4 +153,4 @@ entries:
     urls:
     - https://github.com/h-s-c/helm-charts/releases/download/mosquitto-4.9.1/mosquitto-4.9.1.tgz
     version: 4.9.1
-generated: "2023-11-21T15:48:22.303028211Z"
+generated: "2023-11-21T15:53:26.645110078Z"
