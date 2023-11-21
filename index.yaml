@@ -1,0 +1,131 @@
+apiVersion: v1
+entries:
+  audiobookshelf:
+  - apiVersion: v2
+    appVersion: 2.5.0
+    created: "2023-11-21T15:48:21.661375607Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.k8s-at-home.com
+      version: 4.5.2
+    description: Self-hosted audiobook server for managing and playing your audiobooks
+    digest: f01052b715aae1831a5168d6a9c2341c2f7a324cabd514d1c2872a63e8b1a6b7
+    home: https://github.com/h-s-c/helm-charts/audiobookshelf
+    icon: https://github.com/advplyr/audiobookshelf/blob/master/static/Logo.png
+    keywords:
+    - audiobookshelf
+    - books
+    - audiobooks
+    kubeVersion: '>= 1.16.0-0'
+    maintainers:
+    - name: Kevin Schmidt
+    name: audiobookshelf
+    sources:
+    - https://github.com/advplyr/audiobookshelf
+    urls:
+    - https://github.com/h-s-c/helm-charts/releases/download/audiobookshelf-1.3.1/audiobookshelf-1.3.1.tgz
+    version: 1.3.1
+  calibre-web:
+  - apiVersion: v2
+    appVersion: 0.6.21
+    created: "2023-11-21T15:48:21.851900702Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.k8s-at-home.com
+      version: 4.5.2
+    description: Calibre-Web is a web app providing a clean interface for browsing,
+      reading and downloading eBooks using an existing Calibre database.
+    digest: f8b91403beb723cb8321f8e4219141dcc69635ed47653f4184647f5f07359d0a
+    home: https://github.com/h-s-c/helm-charts/calibre-web
+    icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/calibre-web-icon.png
+    keywords:
+    - calibre
+    - ebook
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - name: Kevin Schmidt
+    name: calibre-web
+    sources:
+    - https://hub.docker.com/r/linuxserver/calibre-web/
+    - https://github.com/janeczku/calibre-web
+    urls:
+    - https://github.com/h-s-c/helm-charts/releases/download/calibre-web-8.5.1/calibre-web-8.5.1.tgz
+    version: 8.5.1
+  intel-gpu-plugin:
+  - apiVersion: v2
+    appVersion: 0.20.0
+    created: "2023-11-21T15:48:22.004761619Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.k8s-at-home.com
+      version: 4.5.2
+    description: The Intel GPU plugin facilitates offloading the processing of computation
+      intensive workloads to GPU hardware
+    digest: 9b9f4cbacbaa8de82d91cd858408e8cb8079f8e7c1a2a58e872a195d266629e6
+    home: https://github.com/h-s-c/helm-charts/intel-gpu-plugin
+    icon: https://avatars0.githubusercontent.com/u/17888862?s=400&v=4
+    keywords:
+    - kubernetes
+    - cluster
+    - hardware
+    - gpu
+    maintainers:
+    - name: Kevin Schmidt
+    name: intel-gpu-plugin
+    sources:
+    - https://github.com/intel/intel-device-plugins-for-kubernetes/blob/master/cmd/gpu_plugin
+    urls:
+    - https://github.com/h-s-c/helm-charts/releases/download/intel-gpu-plugin-4.5.1/intel-gpu-plugin-4.5.1.tgz
+    version: 4.5.1
+  jellyfin:
+  - apiVersion: v2
+    appVersion: 10.8.11
+    created: "2023-11-21T15:48:22.164505705Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.k8s-at-home.com
+      version: 4.5.2
+    description: Jellyfin is a Free Software Media System
+    digest: dcc28f2365541f397b9f3f8e59c28fa6b88392e27643ce02f35cbd8100085a4d
+    home: https://github.com/h-s-c/helm-charts/jellyfin
+    icon: https://raw.githubusercontent.com/jellyfin/jellyfin-ux/master/branding/SVG/icon-solid-black.svg
+    keywords:
+    - jellyfin
+    - plex
+    - emby
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - name: Kevin Schmidt
+    name: jellyfin
+    sources:
+    - https://hub.docker.com/r/jellyfin/jellyfin
+    - https://github.com/jellyfin/jellyfin
+    urls:
+    - https://github.com/h-s-c/helm-charts/releases/download/jellyfin-9.6.1/jellyfin-9.6.1.tgz
+    version: 9.6.1
+  mosquitto:
+  - apiVersion: v2
+    appVersion: 2.0.18
+    created: "2023-11-21T15:48:22.303017862Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.k8s-at-home.com
+      version: 4.5.2
+    description: Eclipse Mosquitto - An open source MQTT broker
+    digest: 674c1d8d1421180b234a6662c148fbbdbb1b97c48c016bf5aeee47068c22aa23
+    home: https://github.com/h-s-c/helm-charts/mosquitto
+    icon: https://raw.githubusercontent.com/eclipse/mosquitto/master/logo/mosquitto-logo-min.svg
+    keywords:
+    - mosquitto
+    - MQTT
+    - eclipse-iot
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - name: Kevin Schmidt
+    name: mosquitto
+    sources:
+    - https://github.com/eclipse/mosquitto
+    urls:
+    - https://github.com/h-s-c/helm-charts/releases/download/mosquitto-4.9.1/mosquitto-4.9.1.tgz
+    version: 4.9.1
+generated: "2023-11-21T15:48:22.303028211Z"
