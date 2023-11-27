@@ -45,8 +45,8 @@ persistence:
 
 # -- Configure the Security Context for the Pod
 podSecurityContext: {}
-#   runAsUser: 568
-#   runAsGroup: 568
+#   runAsUser: 0
+#   runAsGroup: 0
 #   fsGroup: 568
 #   # Hardware acceleration using an Intel iGPU w/ QuickSync
 #   # These IDs below should be matched to your `video` and `render` group on the host
@@ -60,13 +60,8 @@ podSecurityContext: {}
 
 # resources:
 #   requests:
-#     # Hardware acceleration using an Intel iGPU w/ QuickSync and
-#     # using intel-gpu-plugin (https://github.com/intel/intel-device-plugins-for-kubernetes)
+#     # Hardware acceleration using an Intel iGPU w/ QuickSync
 #     gpu.intel.com/i915: 1
-#     cpu: 200m
-#     memory: 256Mi
 #   limits:
-#     # Hardware acceleration using an Intel iGPU w/ QuickSync and
-#     # using intel-gpu-plugin (https://github.com/intel/intel-device-plugins-for-kubernetes)
+#     # Hardware acceleration using an Intel iGPU w/ QuickSync
 #     gpu.intel.com/i915: 1
-#     memory: 4096Mi
