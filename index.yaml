@@ -349,6 +349,29 @@ entries:
     urls:
     - https://github.com/h-s-c/helm-charts/releases/download/mosquitto-4.9.1/mosquitto-4.9.1.tgz
     version: 4.9.1
+  nadybot:
+  - apiVersion: v2
+    appVersion: 6.2.6
+    created: "2023-11-27T15:27:59.71681551Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.k8s-at-home.com
+      version: 4.5.2
+    description: Nadybot is a next-generation chatbot for Anarchy Online
+    digest: ee2e6fed62a1b9b9f91c07a643dc37aa65ef378570d2f5cf5514d2ccef172be8
+    home: https://github.com/h-s-c/helm-charts/nadybot
+    icon: https://raw.githubusercontent.com/Nadybot/Nadybot/unstable/img/nadybot64.png
+    keywords:
+    - nadybot
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - name: Kevin Schmidt
+    name: nadybot
+    sources:
+    - https://github.com/Nadybot/Nadybot
+    urls:
+    - https://github.com/h-s-c/helm-charts/releases/download/nadybot-9.9.0/nadybot-9.9.0.tgz
+    version: 9.9.0
   ps3netsrv:
   - apiVersion: v2
     appVersion: 1.6.0
@@ -398,4 +421,4 @@ entries:
     urls:
     - https://github.com/h-s-c/helm-charts/releases/download/ps3netsrv-9.9.0/ps3netsrv-9.9.0.tgz
     version: 9.9.0
-generated: "2023-11-27T12:03:39.625786891Z"
+generated: "2023-11-27T15:27:59.716846558Z"
