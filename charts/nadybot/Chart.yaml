@@ -1,0 +1,19 @@
+---
+apiVersion: v2
+appVersion: 6.2.6
+description: Nadybot is a next-generation chatbot for Anarchy Online
+name: nadybot
+version: 9.9.0
+kubeVersion: ">=1.16.0-0"
+keywords:
+  - nadybot
+home: https://github.com/h-s-c/helm-charts/nadybot
+icon: https://raw.githubusercontent.com/Nadybot/Nadybot/unstable/img/nadybot64.png
+sources:
+  - https://github.com/Nadybot/Nadybot
+maintainers:
+  - name: Kevin Schmidt
+dependencies:
+  - name: common
+    repository: https://library-charts.k8s-at-home.com
+    version: 4.5.2
