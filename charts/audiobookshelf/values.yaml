@@ -19,8 +19,6 @@ image:
 env:
   # -- Set the container timezone
   TZ: UTC
-  # AUDIOBOOKSHELF_UID: 99
-  # AUDIOBOOKSHELF_GID: 100
 
 # -- Configures service settings for the chart.
 # @default -- See values.yaml
@@ -39,12 +37,12 @@ ingress:
 # -- Configure persistence settings for the chart under this key.
 # @default -- See values.yaml
 persistence: {}
-  # config:
-  #   enabled: false
-  #   mountPath: /config
-  # metadata:
-  #   enabled: false
-  #   mountPath: /metadata
-  # media:
-  #   enabled: false
-  #   mountPath: /audiobooks
+  config:
+    enabled: false
+    mountPath: /config
+  metadata:
+    enabled: false
+    mountPath: /metadata
+  media:
+    enabled: false
+    mountPath: /audiobooks
