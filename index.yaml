@@ -327,6 +327,30 @@ entries:
     version: 4.9.1
   ps3netsrv:
   - apiVersion: v2
+    appVersion: 1.6.0
+    created: "2023-11-27T10:11:25.879293686Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.k8s-at-home.com
+      version: 4.5.2
+    description: ps3netsrv is a server application used to stream content from a remote
+      server to the PS3.
+    digest: 8efe8401eced806229445f2a6aa56e76acd705d1a41196971dae1c1e07d009dc
+    home: https://github.com/h-s-c/helm-charts/ps3netsrv
+    icon: https://raw.githubusercontent.com/shawly/docker-ps3netsrv/master/ps3netsrv-icon.png
+    keywords:
+    - PS3
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - name: Kevin Schmidt
+    name: ps3netsrv
+    sources:
+    - https://github.com/shawly/docker-ps3netsrv
+    - https://github.com/aldostools/webMAN-MOD
+    urls:
+    - https://github.com/h-s-c/helm-charts/releases/download/ps3netsrv-9.9.1/ps3netsrv-9.9.1.tgz
+    version: 9.9.1
+  - apiVersion: v2
     appVersion: 1.7.0
     created: "2023-11-27T09:50:00.179234347Z"
     dependencies:
@@ -350,4 +374,4 @@ entries:
     urls:
     - https://github.com/h-s-c/helm-charts/releases/download/ps3netsrv-9.9.0/ps3netsrv-9.9.0.tgz
     version: 9.9.0
-generated: "2023-11-27T09:50:00.179267017Z"
+generated: "2023-11-27T10:11:25.879342428Z"
