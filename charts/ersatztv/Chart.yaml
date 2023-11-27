@@ -1,0 +1,20 @@
+---
+apiVersion: v2
+appVersion: 0.8.3
+description: Your Personal IPTV Server
+name: ersatztv
+version: 9.9.0
+kubeVersion: ">=1.16.0-0"
+keywords:
+  - ersatztv
+home: https://github.com/h-s-c/helm-charts/ersatztv
+icon: https://raw.githubusercontent.com/ErsatzTV/ErsatzTV/gh-pages/images/ersatztv.png
+sources:
+  - https://hub.docker.com/r/jasongdove/ersatztv
+  - https://github.com/ErsatzTV/ErsatzTV
+maintainers:
+  - name: Kevin Schmidt
+dependencies:
+  - name: common
+    repository: https://library-charts.k8s-at-home.com
+    version: 4.5.2
