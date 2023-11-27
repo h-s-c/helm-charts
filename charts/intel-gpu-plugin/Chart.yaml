@@ -1,9 +1,9 @@
 ---
 apiVersion: v2
-appVersion: 0.20.0
+appVersion: 0.28.0
 description: The Intel GPU plugin facilitates offloading the processing of computation intensive workloads to GPU hardware
 name: intel-gpu-plugin
-version: 9.9.0
+version: 9.9.1
 keywords:
   - kubernetes
   - cluster
