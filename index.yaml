@@ -149,6 +149,30 @@ entries:
     urls:
     - https://github.com/h-s-c/helm-charts/releases/download/calibre-web-8.5.1/calibre-web-8.5.1.tgz
     version: 8.5.1
+  ersatztv:
+  - apiVersion: v2
+    appVersion: 0.8.3
+    created: "2023-11-27T12:03:39.625757877Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.k8s-at-home.com
+      version: 4.5.2
+    description: Your Personal IPTV Server
+    digest: 2ccf82245ef4d1d3d68e588c8d35fddceb37b5db0bf243a9e9ae86852549f943
+    home: https://github.com/h-s-c/helm-charts/ersatztv
+    icon: https://raw.githubusercontent.com/ErsatzTV/ErsatzTV/gh-pages/images/ersatztv.png
+    keywords:
+    - ersatztv
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - name: Kevin Schmidt
+    name: ersatztv
+    sources:
+    - https://hub.docker.com/r/jasongdove/ersatztv
+    - https://github.com/ErsatzTV/ErsatzTV
+    urls:
+    - https://github.com/h-s-c/helm-charts/releases/download/ersatztv-9.9.0/ersatztv-9.9.0.tgz
+    version: 9.9.0
   intel-gpu-plugin:
   - apiVersion: v2
     appVersion: 0.20.0
@@ -374,4 +398,4 @@ entries:
     urls:
     - https://github.com/h-s-c/helm-charts/releases/download/ps3netsrv-9.9.0/ps3netsrv-9.9.0.tgz
     version: 9.9.0
-generated: "2023-11-27T10:11:25.879342428Z"
+generated: "2023-11-27T12:03:39.625786891Z"
