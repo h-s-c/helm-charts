@@ -3,6 +3,30 @@ entries:
   audiobookshelf:
   - apiVersion: v2
     appVersion: 2.5.0
+    created: "2023-11-27T09:49:59.877008799Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.k8s-at-home.com
+      version: 4.5.2
+    description: Self-hosted audiobook server for managing and playing your audiobooks
+    digest: e8b9881458f9b95376c66626770e57b3e293a43086618cf0bcc3da877bbe489f
+    home: https://github.com/h-s-c/helm-charts/audiobookshelf
+    icon: https://github.com/advplyr/audiobookshelf/blob/master/static/Logo.png
+    keywords:
+    - audiobookshelf
+    - books
+    - audiobooks
+    kubeVersion: '>= 1.16.0-0'
+    maintainers:
+    - name: Kevin Schmidt
+    name: audiobookshelf
+    sources:
+    - https://github.com/advplyr/audiobookshelf
+    urls:
+    - https://github.com/h-s-c/helm-charts/releases/download/audiobookshelf-9.9.1/audiobookshelf-9.9.1.tgz
+    version: 9.9.1
+  - apiVersion: v2
+    appVersion: 2.5.0
     created: "2023-11-22T08:33:09.198643606Z"
     dependencies:
     - name: common
@@ -50,6 +74,31 @@ entries:
     - https://github.com/h-s-c/helm-charts/releases/download/audiobookshelf-1.3.1/audiobookshelf-1.3.1.tgz
     version: 1.3.1
   calibre-web:
+  - apiVersion: v2
+    appVersion: 0.6.21
+    created: "2023-11-27T09:50:00.036658903Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.k8s-at-home.com
+      version: 4.5.2
+    description: Calibre-Web is a web app providing a clean interface for browsing,
+      reading and downloading eBooks using an existing Calibre database.
+    digest: e1f53bdc4eed5e571a8d403cd1455c357d3b7f51dd95c6da5c850ee8c04b44cd
+    home: https://github.com/h-s-c/helm-charts/calibre-web
+    icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/calibre-web-icon.png
+    keywords:
+    - calibre
+    - ebook
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - name: Kevin Schmidt
+    name: calibre-web
+    sources:
+    - https://hub.docker.com/r/linuxserver/calibre-web/
+    - https://github.com/janeczku/calibre-web
+    urls:
+    - https://github.com/h-s-c/helm-charts/releases/download/calibre-web-9.9.1/calibre-web-9.9.1.tgz
+    version: 9.9.1
   - apiVersion: v2
     appVersion: 0.6.21
     created: "2023-11-22T08:33:09.460487424Z"
@@ -276,4 +325,29 @@ entries:
     urls:
     - https://github.com/h-s-c/helm-charts/releases/download/mosquitto-4.9.1/mosquitto-4.9.1.tgz
     version: 4.9.1
-generated: "2023-11-22T08:33:10.205978182Z"
+  ps3netsrv:
+  - apiVersion: v2
+    appVersion: 1.7.0
+    created: "2023-11-27T09:50:00.179234347Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.k8s-at-home.com
+      version: 4.5.2
+    description: ps3netsrv is a server application used to stream content from a remote
+      server to the PS3.
+    digest: f8a6f782caae342f5b9c3ba52bccfbf5b89f99c75bce5686345e28f14e7aa310
+    home: https://github.com/h-s-c/helm-charts/ps3netsrv
+    icon: https://raw.githubusercontent.com/shawly/docker-ps3netsrv/master/ps3netsrv-icon.png
+    keywords:
+    - PS3
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - name: Kevin Schmidt
+    name: ps3netsrv
+    sources:
+    - https://github.com/shawly/docker-ps3netsrv
+    - https://github.com/aldostools/webMAN-MOD
+    urls:
+    - https://github.com/h-s-c/helm-charts/releases/download/ps3netsrv-9.9.0/ps3netsrv-9.9.0.tgz
+    version: 9.9.0
+generated: "2023-11-27T09:50:00.179267017Z"
