@@ -175,6 +175,31 @@ entries:
     version: 9.9.0
   intel-gpu-plugin:
   - apiVersion: v2
+    appVersion: 0.28.0
+    created: "2023-11-27T15:28:28.008423918Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.k8s-at-home.com
+      version: 4.5.2
+    description: The Intel GPU plugin facilitates offloading the processing of computation
+      intensive workloads to GPU hardware
+    digest: 23eb8d5f1693db69d6adefe1a1a2d2a23713fdea1c3a0d8a9af4c3dbc521a89a
+    home: https://github.com/h-s-c/helm-charts/intel-gpu-plugin
+    icon: https://avatars0.githubusercontent.com/u/17888862?s=400&v=4
+    keywords:
+    - kubernetes
+    - cluster
+    - hardware
+    - gpu
+    maintainers:
+    - name: Kevin Schmidt
+    name: intel-gpu-plugin
+    sources:
+    - https://github.com/intel/intel-device-plugins-for-kubernetes/blob/master/cmd/gpu_plugin
+    urls:
+    - https://github.com/h-s-c/helm-charts/releases/download/intel-gpu-plugin-9.9.1/intel-gpu-plugin-9.9.1.tgz
+    version: 9.9.1
+  - apiVersion: v2
     appVersion: 0.20.0
     created: "2023-11-22T08:33:09.710003616Z"
     dependencies:
@@ -421,4 +446,4 @@ entries:
     urls:
     - https://github.com/h-s-c/helm-charts/releases/download/ps3netsrv-9.9.0/ps3netsrv-9.9.0.tgz
     version: 9.9.0
-generated: "2023-11-27T15:27:59.716846558Z"
+generated: "2023-11-27T15:28:28.008485553Z"
