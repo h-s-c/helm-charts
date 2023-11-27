@@ -9,8 +9,7 @@ image:
   # -- image repository
   repository: shawly/ps3netsrv
   # -- image tag
-  # @default -- chart.appVersion
-  tag:
+  tag: v1.6.0
   # -- image pull policy
   pullPolicy: IfNotPresent
 
