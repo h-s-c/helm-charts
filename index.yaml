@@ -399,6 +399,28 @@ entries:
     version: 4.9.1
   nadybot:
   - apiVersion: v2
+    appVersion: 6.2.7
+    created: "2023-12-20T21:59:20.460819766Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.k8s-at-home.com
+      version: 4.5.2
+    description: Nadybot is a next-generation chatbot for Anarchy Online
+    digest: 500165274a6609371d1e68d12537edccaa0139dbfd4d3474189642e78b86842a
+    home: https://github.com/h-s-c/helm-charts/nadybot
+    icon: https://raw.githubusercontent.com/Nadybot/Nadybot/unstable/img/nadybot64.png
+    keywords:
+    - nadybot
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - name: Kevin Schmidt
+    name: nadybot
+    sources:
+    - https://github.com/Nadybot/Nadybot
+    urls:
+    - https://github.com/h-s-c/helm-charts/releases/download/nadybot-9.9.2/nadybot-9.9.2.tgz
+    version: 9.9.2
+  - apiVersion: v2
     appVersion: 6.2.6
     created: "2023-11-27T15:27:59.71681551Z"
     dependencies:
@@ -469,4 +491,4 @@ entries:
     urls:
     - https://github.com/h-s-c/helm-charts/releases/download/ps3netsrv-9.9.0/ps3netsrv-9.9.0.tgz
     version: 9.9.0
-generated: "2023-12-20T21:57:13.388598463Z"
+generated: "2023-12-20T21:59:20.460861283Z"
