@@ -14,7 +14,7 @@ image:
   pullPolicy: IfNotPresent
 
 # -- environment variables.
-# @default -- See below
+# @default -- See values.yaml
 env:
   # -- Set the container timezone
   TZ: UTC
@@ -39,3 +39,13 @@ persistence:
   config:
     enabled: false
     mountPath: /nadybot/data/db
+
+# -- Readiness probe configuration
+# @default -- See values.yaml
+probes:
+  liveness:
+    enabled: false
+  readiness:
+    enabled: false
+  startup:
+    enabled: false
