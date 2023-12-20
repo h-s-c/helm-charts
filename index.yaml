@@ -151,6 +151,29 @@ entries:
     version: 8.5.1
   ersatztv:
   - apiVersion: v2
+    appVersion: 0.8.4
+    created: "2023-12-20T21:57:13.388556435Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.k8s-at-home.com
+      version: 4.5.2
+    description: Your Personal IPTV Server
+    digest: 5a310c70fa9259a5c7e42c84fe75fc27f493248b4146e9ea00c886cbef3c93bd
+    home: https://github.com/h-s-c/helm-charts/ersatztv
+    icon: https://raw.githubusercontent.com/ErsatzTV/ErsatzTV/gh-pages/images/ersatztv.png
+    keywords:
+    - ersatztv
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - name: Kevin Schmidt
+    name: ersatztv
+    sources:
+    - https://hub.docker.com/r/jasongdove/ersatztv
+    - https://github.com/ErsatzTV/ErsatzTV
+    urls:
+    - https://github.com/h-s-c/helm-charts/releases/download/ersatztv-9.9.1/ersatztv-9.9.1.tgz
+    version: 9.9.1
+  - apiVersion: v2
     appVersion: 0.8.3
     created: "2023-11-27T12:03:39.625757877Z"
     dependencies:
@@ -446,4 +469,4 @@ entries:
     urls:
     - https://github.com/h-s-c/helm-charts/releases/download/ps3netsrv-9.9.0/ps3netsrv-9.9.0.tgz
     version: 9.9.0
-generated: "2023-11-27T15:28:28.008485553Z"
+generated: "2023-12-20T21:57:13.388598463Z"
