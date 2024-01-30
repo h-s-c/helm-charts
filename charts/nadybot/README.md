@@ -1,6 +1,6 @@
 # nadybot
 
-![AppVersion: 6.2.6](https://img.shields.io/badge/AppVersion-6.2.6-informational?style=flat-square)
+![AppVersion: 6.2.7](https://img.shields.io/badge/AppVersion-6.2.7-informational?style=flat-square)
 
 Nadybot is a next-generation chatbot for Anarchy Online
 

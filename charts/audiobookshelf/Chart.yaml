@@ -10,7 +10,7 @@ keywords:
   - books
   - audiobooks
 home: https://github.com/h-s-c/helm-charts/audiobookshelf
-icon: https://github.com/advplyr/audiobookshelf/blob/master/static/Logo.png
+icon: https://raw.githubusercontent.com/advplyr/audiobookshelf/master/client/static/Logo.png
 sources:
   - https://github.com/advplyr/audiobookshelf
 maintainers:
