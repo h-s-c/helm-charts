@@ -1,9 +1,9 @@
 ---
 apiVersion: v2
-appVersion: "2.7.1"
+appVersion: "2.7.2"
 description: Self-hosted audiobook server for managing and playing your audiobooks
 name: audiobookshelf
-version: 9.9.2
+version: 9.9.3
 kubeVersion: ">= 1.16.0-0"
 keywords:
   - audiobookshelf

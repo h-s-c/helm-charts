@@ -1,6 +1,6 @@
 # audiobookshelf
 
-![Version: 2.7.1](https://img.shields.io/badge/AppVersion-2.7.1-informational?style=flat-square)
+![Version: 2.7.2](https://img.shields.io/badge/AppVersion-2.7.2-informational?style=flat-square)
 
 Self-hosted audiobook server for managing and playing your audiobooks
 
