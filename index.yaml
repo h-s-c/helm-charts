@@ -2,6 +2,30 @@ apiVersion: v1
 entries:
   audiobookshelf:
   - apiVersion: v2
+    appVersion: 2.7.2
+    created: "2024-01-30T20:44:26.088002355Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.k8s-at-home.com
+      version: 4.5.2
+    description: Self-hosted audiobook server for managing and playing your audiobooks
+    digest: f8ab12a7f29c96916f8fbe93f4e5467234ed4dd2572d74010c00fa2206c6e8fe
+    home: https://github.com/h-s-c/helm-charts/audiobookshelf
+    icon: https://raw.githubusercontent.com/advplyr/audiobookshelf/master/client/static/Logo.png
+    keywords:
+    - audiobookshelf
+    - books
+    - audiobooks
+    kubeVersion: '>= 1.16.0-0'
+    maintainers:
+    - name: Kevin Schmidt
+    name: audiobookshelf
+    sources:
+    - https://github.com/advplyr/audiobookshelf
+    urls:
+    - https://github.com/h-s-c/helm-charts/releases/download/audiobookshelf-9.9.3/audiobookshelf-9.9.3.tgz
+    version: 9.9.3
+  - apiVersion: v2
     appVersion: 2.7.1
     created: "2024-01-10T10:49:20.238155143Z"
     dependencies:
@@ -420,6 +444,30 @@ entries:
     urls:
     - https://github.com/h-s-c/helm-charts/releases/download/jellyfin-9.6.1/jellyfin-9.6.1.tgz
     version: 9.6.1
+  kosync:
+  - apiVersion: v2
+    appVersion: 1.0.1.3
+    created: "2024-01-30T20:44:26.463549429Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.k8s-at-home.com
+      version: 4.5.2
+    description: Koreader sync server
+    digest: d5240daf36e710a29d17cb2501640523a1ac85a2585b3f85df55664934895caa
+    home: https://github.com/h-s-c/helm-charts/kosync
+    icon: https://raw.githubusercontent.com/koreader/koreader/master/resources/koreader.png
+    keywords:
+    - kosync
+    - books
+    kubeVersion: '>= 1.16.0-0'
+    maintainers:
+    - name: Kevin Schmidt
+    name: kosync
+    sources:
+    - https://github.com/koreader/koreader-sync-server
+    urls:
+    - https://github.com/h-s-c/helm-charts/releases/download/kosync-9.9.0/kosync-9.9.0.tgz
+    version: 9.9.0
   mosquitto:
   - apiVersion: v2
     appVersion: 2.0.18
@@ -563,4 +611,4 @@ entries:
     urls:
     - https://github.com/h-s-c/helm-charts/releases/download/ps3netsrv-9.9.0/ps3netsrv-9.9.0.tgz
     version: 9.9.0
-generated: "2024-01-10T10:49:20.374644749Z"
+generated: "2024-01-30T20:44:26.583475221Z"
