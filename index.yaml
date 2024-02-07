@@ -3,6 +3,30 @@ entries:
   audiobookshelf:
   - apiVersion: v2
     appVersion: 2.7.2
+    created: "2024-02-07T18:29:50.640015886Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.k8s-at-home.com
+      version: 4.5.2
+    description: Self-hosted audiobook server for managing and playing your audiobooks
+    digest: c4baf673e5b824cddcec5d88d99cdca461d9ef7a1b95606ad69ffaea527a7b7e
+    home: https://github.com/h-s-c/helm-charts/audiobookshelf
+    icon: https://raw.githubusercontent.com/advplyr/audiobookshelf/master/client/static/Logo.png
+    keywords:
+    - audiobookshelf
+    - books
+    - audiobooks
+    kubeVersion: '>= 1.16.0-0'
+    maintainers:
+    - name: Kevin Schmidt
+    name: audiobookshelf
+    sources:
+    - https://github.com/advplyr/audiobookshelf
+    urls:
+    - https://github.com/h-s-c/helm-charts/releases/download/audiobookshelf-9.9.5/audiobookshelf-9.9.5.tgz
+    version: 9.9.5
+  - apiVersion: v2
+    appVersion: 2.7.2
     created: "2024-02-07T17:49:59.790226798Z"
     dependencies:
     - name: common
@@ -148,6 +172,31 @@ entries:
   calibre-web:
   - apiVersion: v2
     appVersion: 0.6.21
+    created: "2024-02-07T18:29:50.735157514Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.k8s-at-home.com
+      version: 4.5.2
+    description: Calibre-Web is a web app providing a clean interface for browsing,
+      reading and downloading eBooks using an existing Calibre database.
+    digest: b1a6b47c5661aec611c82c3896656b8ae2f8eebe9a290fb71e74c930b4b0ce3a
+    home: https://github.com/h-s-c/helm-charts/calibre-web
+    icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/calibre-web-icon.png
+    keywords:
+    - calibre
+    - ebook
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - name: Kevin Schmidt
+    name: calibre-web
+    sources:
+    - https://hub.docker.com/r/linuxserver/calibre-web/
+    - https://github.com/janeczku/calibre-web
+    urls:
+    - https://github.com/h-s-c/helm-charts/releases/download/calibre-web-9.9.3/calibre-web-9.9.3.tgz
+    version: 9.9.3
+  - apiVersion: v2
+    appVersion: 0.6.21
     created: "2024-02-07T17:49:59.921655772Z"
     dependencies:
     - name: common
@@ -249,6 +298,29 @@ entries:
   ersatztv:
   - apiVersion: v2
     appVersion: 0.8.4
+    created: "2024-02-07T18:29:50.850068986Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.k8s-at-home.com
+      version: 4.5.2
+    description: Your Personal IPTV Server
+    digest: cee1fb50e2dacc61b0d6211ebbe70beb1f6f1c6c5d1657f924122f159ad739cf
+    home: https://github.com/h-s-c/helm-charts/ersatztv
+    icon: https://raw.githubusercontent.com/ErsatzTV/ErsatzTV/gh-pages/images/ersatztv.png
+    keywords:
+    - ersatztv
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - name: Kevin Schmidt
+    name: ersatztv
+    sources:
+    - https://hub.docker.com/r/jasongdove/ersatztv
+    - https://github.com/ErsatzTV/ErsatzTV
+    urls:
+    - https://github.com/h-s-c/helm-charts/releases/download/ersatztv-9.9.4/ersatztv-9.9.4.tgz
+    version: 9.9.4
+  - apiVersion: v2
+    appVersion: 0.8.4
     created: "2024-02-07T17:50:00.044330206Z"
     dependencies:
     - name: common
@@ -340,6 +412,31 @@ entries:
     - https://github.com/h-s-c/helm-charts/releases/download/ersatztv-9.9.0/ersatztv-9.9.0.tgz
     version: 9.9.0
   intel-gpu-plugin:
+  - apiVersion: v2
+    appVersion: 0.28.0
+    created: "2024-02-07T18:29:50.956207467Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.k8s-at-home.com
+      version: 4.5.2
+    description: The Intel GPU plugin facilitates offloading the processing of computation
+      intensive workloads to GPU hardware
+    digest: f13001071ca8cc47daad7a555d52a5ee1fcc0f7c779b13d8ddd05d7d1a9b0ae6
+    home: https://github.com/h-s-c/helm-charts/intel-gpu-plugin
+    icon: https://avatars0.githubusercontent.com/u/17888862?s=400&v=4
+    keywords:
+    - kubernetes
+    - cluster
+    - hardware
+    - gpu
+    maintainers:
+    - name: Kevin Schmidt
+    name: intel-gpu-plugin
+    sources:
+    - https://github.com/intel/intel-device-plugins-for-kubernetes/blob/master/cmd/gpu_plugin
+    urls:
+    - https://github.com/h-s-c/helm-charts/releases/download/intel-gpu-plugin-9.9.3/intel-gpu-plugin-9.9.3.tgz
+    version: 9.9.3
   - apiVersion: v2
     appVersion: 0.28.0
     created: "2024-02-07T17:50:00.155511792Z"
@@ -441,6 +538,31 @@ entries:
     - https://github.com/h-s-c/helm-charts/releases/download/intel-gpu-plugin-4.5.1/intel-gpu-plugin-4.5.1.tgz
     version: 4.5.1
   jellyfin:
+  - apiVersion: v2
+    appVersion: 10.8.13
+    created: "2024-02-07T18:29:51.077747987Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.k8s-at-home.com
+      version: 4.5.2
+    description: Jellyfin is a Free Software Media System
+    digest: 293a362461633bb5b96f9557424b08f73cf540f2961cd0b2e693cefe953f5b7a
+    home: https://github.com/h-s-c/helm-charts/jellyfin
+    icon: https://raw.githubusercontent.com/jellyfin/jellyfin-ux/master/branding/SVG/icon-solid-black.svg
+    keywords:
+    - jellyfin
+    - plex
+    - emby
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - name: Kevin Schmidt
+    name: jellyfin
+    sources:
+    - https://hub.docker.com/r/jellyfin/jellyfin
+    - https://github.com/jellyfin/jellyfin
+    urls:
+    - https://github.com/h-s-c/helm-charts/releases/download/jellyfin-9.9.3/jellyfin-9.9.3.tgz
+    version: 9.9.3
   - apiVersion: v2
     appVersion: 10.8.13
     created: "2024-02-07T17:50:00.274448598Z"
@@ -569,6 +691,29 @@ entries:
   kosync:
   - apiVersion: v2
     appVersion: 1.0.1.3
+    created: "2024-02-07T18:29:51.179079136Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.k8s-at-home.com
+      version: 4.5.2
+    description: Koreader sync server
+    digest: bfbc71c0349d0f31738eb0cf4b9d9b71059a6ced5a461feafc629bec01c65324
+    home: https://github.com/h-s-c/helm-charts/kosync
+    icon: https://raw.githubusercontent.com/koreader/koreader/master/resources/koreader.png
+    keywords:
+    - kosync
+    - books
+    kubeVersion: '>= 1.16.0-0'
+    maintainers:
+    - name: Kevin Schmidt
+    name: kosync
+    sources:
+    - https://github.com/koreader/koreader-sync-server
+    urls:
+    - https://github.com/h-s-c/helm-charts/releases/download/kosync-9.9.2/kosync-9.9.2.tgz
+    version: 9.9.2
+  - apiVersion: v2
+    appVersion: 1.0.1.3
     created: "2024-02-07T17:50:00.383245279Z"
     dependencies:
     - name: common
@@ -614,6 +759,30 @@ entries:
     - https://github.com/h-s-c/helm-charts/releases/download/kosync-9.9.0/kosync-9.9.0.tgz
     version: 9.9.0
   mosquitto:
+  - apiVersion: v2
+    appVersion: 2.0.18
+    created: "2024-02-07T18:29:51.31323502Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.k8s-at-home.com
+      version: 4.5.2
+    description: Eclipse Mosquitto - An open source MQTT broker
+    digest: 9947836e2dab793c1e23fc95b27a68bb104ef9ff9e9bfd85df11ad6009846a55
+    home: https://github.com/h-s-c/helm-charts/mosquitto
+    icon: https://raw.githubusercontent.com/eclipse/mosquitto/master/logo/mosquitto-logo-min.svg
+    keywords:
+    - mosquitto
+    - MQTT
+    - eclipse-iot
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - name: Kevin Schmidt
+    name: mosquitto
+    sources:
+    - https://github.com/eclipse/mosquitto
+    urls:
+    - https://github.com/h-s-c/helm-charts/releases/download/mosquitto-9.9.2/mosquitto-9.9.2.tgz
+    version: 9.9.2
   - apiVersion: v2
     appVersion: 2.0.18
     created: "2024-02-07T17:50:00.515405836Z"
@@ -689,6 +858,28 @@ entries:
   nadybot:
   - apiVersion: v2
     appVersion: 6.2.7
+    created: "2024-02-07T18:29:51.421645115Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.k8s-at-home.com
+      version: 4.5.2
+    description: Nadybot is a next-generation chatbot for Anarchy Online
+    digest: cec96b847fba7d6c869cb4697fa21f7035c59dc3dfe6235cf62e79e8a5d51056
+    home: https://github.com/h-s-c/helm-charts/nadybot
+    icon: https://raw.githubusercontent.com/Nadybot/Nadybot/unstable/img/nadybot64.png
+    keywords:
+    - nadybot
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - name: Kevin Schmidt
+    name: nadybot
+    sources:
+    - https://github.com/Nadybot/Nadybot
+    urls:
+    - https://github.com/h-s-c/helm-charts/releases/download/nadybot-9.9.4/nadybot-9.9.4.tgz
+    version: 9.9.4
+  - apiVersion: v2
+    appVersion: 6.2.7
     created: "2024-02-07T17:50:00.640164581Z"
     dependencies:
     - name: common
@@ -754,6 +945,30 @@ entries:
     - https://github.com/h-s-c/helm-charts/releases/download/nadybot-9.9.0/nadybot-9.9.0.tgz
     version: 9.9.0
   ps3netsrv:
+  - apiVersion: v2
+    appVersion: 1.6.0
+    created: "2024-02-07T18:29:51.514612017Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.k8s-at-home.com
+      version: 4.5.2
+    description: ps3netsrv is a server application used to stream content from a remote
+      server to the PS3.
+    digest: ff586165888177451672593ad18c7f1a9ddc8fe9041ba153c601f458b0f56904
+    home: https://github.com/h-s-c/helm-charts/ps3netsrv
+    icon: https://raw.githubusercontent.com/shawly/docker-ps3netsrv/master/ps3netsrv-icon.png
+    keywords:
+    - PS3
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - name: Kevin Schmidt
+    name: ps3netsrv
+    sources:
+    - https://github.com/shawly/docker-ps3netsrv
+    - https://github.com/aldostools/webMAN-MOD
+    urls:
+    - https://github.com/h-s-c/helm-charts/releases/download/ps3netsrv-9.9.3/ps3netsrv-9.9.3.tgz
+    version: 9.9.3
   - apiVersion: v2
     appVersion: 1.6.0
     created: "2024-02-07T17:50:00.770915238Z"
@@ -826,4 +1041,4 @@ entries:
     urls:
     - https://github.com/h-s-c/helm-charts/releases/download/ps3netsrv-9.9.0/ps3netsrv-9.9.0.tgz
     version: 9.9.0
-generated: "2024-02-07T17:50:00.771022787Z"
+generated: "2024-02-07T18:29:51.514746938Z"
