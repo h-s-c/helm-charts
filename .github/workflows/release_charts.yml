@@ -1,12 +1,12 @@
 name: release helm charts
 
-permissions:
-  contents: write
-
 on:
   push:
     branches:
       - main
+
+permissions:
+  contents: write
 
 jobs:
   release:
