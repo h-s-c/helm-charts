@@ -3,7 +3,7 @@ apiVersion: v2
 appVersion: 1.6.0
 description: ps3netsrv is a server application used to stream content from a remote server to the PS3.
 name: ps3netsrv
-version: 9.9.1
+version: 9.9.2
 kubeVersion: ">=1.16.0-0"
 keywords:
   - PS3
@@ -13,7 +13,7 @@ sources:
   - https://github.com/shawly/docker-ps3netsrv
   - https://github.com/aldostools/webMAN-MOD
 maintainers:
-  - name: Kevin Schmidt
+  - name: h-s-c
 dependencies:
   - name: common
     repository: https://library-charts.k8s-at-home.com

@@ -3,7 +3,7 @@ apiVersion: v2
 appVersion: 0.8.4
 description: Your Personal IPTV Server
 name: ersatztv
-version: 9.9.2
+version: 9.9.3
 kubeVersion: ">=1.16.0-0"
 keywords:
   - ersatztv
@@ -13,7 +13,7 @@ sources:
   - https://hub.docker.com/r/jasongdove/ersatztv
   - https://github.com/ErsatzTV/ErsatzTV
 maintainers:
-  - name: Kevin Schmidt
+  - name: h-s-c
 dependencies:
   - name: common
     repository: https://library-charts.k8s-at-home.com

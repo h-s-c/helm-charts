@@ -3,7 +3,7 @@ apiVersion: v2
 appVersion: "1.0.1.3"
 description: Koreader sync server
 name: kosync
-version: 9.9.0
+version: 9.9.1
 kubeVersion: ">= 1.16.0-0"
 keywords:
   - kosync
@@ -13,7 +13,7 @@ icon: https://raw.githubusercontent.com/koreader/koreader/master/resources/korea
 sources:
   - https://github.com/koreader/koreader-sync-server
 maintainers:
-  - name: Kevin Schmidt
+  - name: h-s-c
 dependencies:
   - name: common
     repository: https://library-charts.k8s-at-home.com
