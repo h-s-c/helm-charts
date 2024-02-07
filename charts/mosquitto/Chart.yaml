@@ -3,7 +3,7 @@ apiVersion: v2
 appVersion: 2.0.18
 description: Eclipse Mosquitto - An open source MQTT broker
 name: mosquitto
-version: 9.9.1
+version: 9.9.0
 kubeVersion: ">=1.16.0-0"
 keywords:
   - mosquitto
@@ -14,7 +14,7 @@ icon: https://raw.githubusercontent.com/eclipse/mosquitto/master/logo/mosquitto-
 sources:
   - https://github.com/eclipse/mosquitto
 maintainers:
-  - name: h-s-c
+  - name: Kevin Schmidt
 dependencies:
   - name: common
     repository: https://library-charts.k8s-at-home.com

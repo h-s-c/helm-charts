@@ -3,7 +3,7 @@ apiVersion: v2
 appVersion: 10.8.13
 description: Jellyfin is a Free Software Media System
 name: jellyfin
-version: 9.9.2
+version: 9.9.1
 kubeVersion: ">=1.16.0-0"
 keywords:
   - jellyfin
@@ -15,7 +15,7 @@ sources:
   - https://hub.docker.com/r/jellyfin/jellyfin
   - https://github.com/jellyfin/jellyfin
 maintainers:
-  - name: h-s-c
+  - name: Kevin Schmidt
 dependencies:
   - name: common
     repository: https://library-charts.k8s-at-home.com
