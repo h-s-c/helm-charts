@@ -36,5 +36,4 @@ jobs:
 
       - name: Run chart-testing (install)
         run: ct install --all
-        chart-repos:
-          - common=https://library-charts.k8s-at-home.com
+        
