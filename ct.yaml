@@ -3,6 +3,8 @@ remote: origin
 target-branch: main
 chart-dirs:
   - charts
+excluded-charts:
+  - nadybot
 chart-repos:
   - common=https://library-charts.k8s-at-home.com
 validate-maintainers: false
