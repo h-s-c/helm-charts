@@ -2,6 +2,30 @@ apiVersion: v1
 entries:
   audiobookshelf:
   - apiVersion: v2
+    appVersion: 2.8.0
+    created: "2024-03-15T22:33:09.186890489Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.k8s-at-home.com
+      version: 4.5.2
+    description: Self-hosted audiobook server for managing and playing your audiobooks
+    digest: 05796c1b8e1e0da6de28ea6233c0ccfac719aaacd97da8ada014b69e7962342f
+    home: https://github.com/h-s-c/helm-charts/audiobookshelf
+    icon: https://raw.githubusercontent.com/advplyr/audiobookshelf/master/client/static/Logo.png
+    keywords:
+    - audiobookshelf
+    - books
+    - audiobooks
+    kubeVersion: '>= 1.16.0-0'
+    maintainers:
+    - name: Kevin Schmidt
+    name: audiobookshelf
+    sources:
+    - https://github.com/advplyr/audiobookshelf
+    urls:
+    - https://github.com/h-s-c/helm-charts/releases/download/audiobookshelf-9.9.6/audiobookshelf-9.9.6.tgz
+    version: 9.9.6
+  - apiVersion: v2
     appVersion: 2.7.2
     created: "2024-02-07T18:29:50.640015886Z"
     dependencies:
@@ -296,6 +320,29 @@ entries:
     - https://github.com/h-s-c/helm-charts/releases/download/calibre-web-8.5.1/calibre-web-8.5.1.tgz
     version: 8.5.1
   ersatztv:
+  - apiVersion: v2
+    appVersion: 0.8.5
+    created: "2024-03-15T22:33:09.303327766Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.k8s-at-home.com
+      version: 4.5.2
+    description: Your Personal IPTV Server
+    digest: ee4cd1974b3750ed5f1ec08de115ea8f540c95a24efd8af0d99a721869360b68
+    home: https://github.com/h-s-c/helm-charts/ersatztv
+    icon: https://raw.githubusercontent.com/ErsatzTV/ErsatzTV/gh-pages/images/ersatztv.png
+    keywords:
+    - ersatztv
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - name: Kevin Schmidt
+    name: ersatztv
+    sources:
+    - https://hub.docker.com/r/jasongdove/ersatztv
+    - https://github.com/ErsatzTV/ErsatzTV
+    urls:
+    - https://github.com/h-s-c/helm-charts/releases/download/ersatztv-9.9.5/ersatztv-9.9.5.tgz
+    version: 9.9.5
   - apiVersion: v2
     appVersion: 0.8.4
     created: "2024-02-07T18:29:50.850068986Z"
@@ -857,6 +904,28 @@ entries:
     version: 4.9.1
   nadybot:
   - apiVersion: v2
+    appVersion: 6.2.8
+    created: "2024-03-15T22:33:09.395883416Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.k8s-at-home.com
+      version: 4.5.2
+    description: Nadybot is a next-generation chatbot for Anarchy Online
+    digest: 0445eae823bfc4e65deec1b059617b9fef54b8db9a62f92acb1c11bf7a8c2eae
+    home: https://github.com/h-s-c/helm-charts/nadybot
+    icon: https://raw.githubusercontent.com/Nadybot/Nadybot/unstable/img/nadybot64.png
+    keywords:
+    - nadybot
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - name: Kevin Schmidt
+    name: nadybot
+    sources:
+    - https://github.com/Nadybot/Nadybot
+    urls:
+    - https://github.com/h-s-c/helm-charts/releases/download/nadybot-9.9.5/nadybot-9.9.5.tgz
+    version: 9.9.5
+  - apiVersion: v2
     appVersion: 6.2.7
     created: "2024-02-07T18:29:51.421645115Z"
     dependencies:
@@ -945,6 +1014,30 @@ entries:
     - https://github.com/h-s-c/helm-charts/releases/download/nadybot-9.9.0/nadybot-9.9.0.tgz
     version: 9.9.0
   ps3netsrv:
+  - apiVersion: v2
+    appVersion: 1.9.0
+    created: "2024-03-15T22:33:09.509023758Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.k8s-at-home.com
+      version: 4.5.2
+    description: ps3netsrv is a server application used to stream content from a remote
+      server to the PS3.
+    digest: 9bf2587d61ec10f314b2fc5c04314073c5336c9cbb8a3498e6444254bec1ad43
+    home: https://github.com/h-s-c/helm-charts/ps3netsrv
+    icon: https://raw.githubusercontent.com/shawly/docker-ps3netsrv/master/ps3netsrv-icon.png
+    keywords:
+    - PS3
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - name: Kevin Schmidt
+    name: ps3netsrv
+    sources:
+    - https://github.com/shawly/docker-ps3netsrv
+    - https://github.com/aldostools/webMAN-MOD
+    urls:
+    - https://github.com/h-s-c/helm-charts/releases/download/ps3netsrv-9.9.4/ps3netsrv-9.9.4.tgz
+    version: 9.9.4
   - apiVersion: v2
     appVersion: 1.6.0
     created: "2024-02-07T18:29:51.514612017Z"
@@ -1041,4 +1134,4 @@ entries:
     urls:
     - https://github.com/h-s-c/helm-charts/releases/download/ps3netsrv-9.9.0/ps3netsrv-9.9.0.tgz
     version: 9.9.0
-generated: "2024-02-07T18:29:51.514746938Z"
+generated: "2024-03-15T22:33:09.509107835Z"
