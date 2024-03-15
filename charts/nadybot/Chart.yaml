@@ -1,9 +1,9 @@
 ---
 apiVersion: v2
-appVersion: 6.2.7
+appVersion: 6.2.8
 description: Nadybot is a next-generation chatbot for Anarchy Online
 name: nadybot
-version: 9.9.4
+version: 9.9.5
 kubeVersion: ">=1.16.0-0"
 keywords:
   - nadybot

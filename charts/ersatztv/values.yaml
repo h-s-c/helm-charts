@@ -9,7 +9,7 @@ image:
   # -- image repository
   repository: jasongdove/ersatztv
   # -- image tag
-  tag: v0.8.4-vaapi
+  tag: v0.8.5-vaapi
   # -- image pull policy
   pullPolicy: IfNotPresent
 
