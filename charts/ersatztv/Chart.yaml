@@ -1,9 +1,9 @@
 ---
 apiVersion: v2
-appVersion: 0.8.5
+appVersion: 0.8.6
 description: Your Personal IPTV Server
 name: ersatztv
-version: 9.9.5
+version: 9.9.6
 kubeVersion: ">=1.16.0-0"
 keywords:
   - ersatztv
