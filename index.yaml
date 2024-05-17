@@ -2,6 +2,30 @@ apiVersion: v1
 entries:
   audiobookshelf:
   - apiVersion: v2
+    appVersion: 2.9.0
+    created: "2024-05-17T20:23:32.293688247Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.k8s-at-home.com
+      version: 4.5.2
+    description: Self-hosted audiobook server for managing and playing your audiobooks
+    digest: c551a656859d67a8463fe3f4f091ae9f0f115d8385d1c856a39e9e422b5738d4
+    home: https://github.com/h-s-c/helm-charts/audiobookshelf
+    icon: https://raw.githubusercontent.com/advplyr/audiobookshelf/master/client/static/Logo.png
+    keywords:
+    - audiobookshelf
+    - books
+    - audiobooks
+    kubeVersion: '>= 1.16.0-0'
+    maintainers:
+    - name: Kevin Schmidt
+    name: audiobookshelf
+    sources:
+    - https://github.com/advplyr/audiobookshelf
+    urls:
+    - https://github.com/h-s-c/helm-charts/releases/download/audiobookshelf-9.9.7/audiobookshelf-9.9.7.tgz
+    version: 9.9.7
+  - apiVersion: v2
     appVersion: 2.8.0
     created: "2024-03-15T22:33:09.186890489Z"
     dependencies:
@@ -321,6 +345,29 @@ entries:
     version: 8.5.1
   ersatztv:
   - apiVersion: v2
+    appVersion: 0.8.6
+    created: "2024-05-17T20:23:32.3841122Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.k8s-at-home.com
+      version: 4.5.2
+    description: Your Personal IPTV Server
+    digest: 0feddfd06b0bbfab1a1828688094e73455262e57c0793befdede7eb44342e66d
+    home: https://github.com/h-s-c/helm-charts/ersatztv
+    icon: https://raw.githubusercontent.com/ErsatzTV/ErsatzTV/gh-pages/images/ersatztv.png
+    keywords:
+    - ersatztv
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - name: Kevin Schmidt
+    name: ersatztv
+    sources:
+    - https://hub.docker.com/r/jasongdove/ersatztv
+    - https://github.com/ErsatzTV/ErsatzTV
+    urls:
+    - https://github.com/h-s-c/helm-charts/releases/download/ersatztv-9.9.6/ersatztv-9.9.6.tgz
+    version: 9.9.6
+  - apiVersion: v2
     appVersion: 0.8.5
     created: "2024-03-15T22:33:09.303327766Z"
     dependencies:
@@ -585,6 +632,31 @@ entries:
     - https://github.com/h-s-c/helm-charts/releases/download/intel-gpu-plugin-4.5.1/intel-gpu-plugin-4.5.1.tgz
     version: 4.5.1
   jellyfin:
+  - apiVersion: v2
+    appVersion: 10.9.1
+    created: "2024-05-17T20:23:32.510334949Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.k8s-at-home.com
+      version: 4.5.2
+    description: Jellyfin is a Free Software Media System
+    digest: 3b028873dbf81bbeb2a11c27da26577d372f378a753a894f2838c05425e6a139
+    home: https://github.com/h-s-c/helm-charts/jellyfin
+    icon: https://raw.githubusercontent.com/jellyfin/jellyfin-ux/master/branding/SVG/icon-solid-black.svg
+    keywords:
+    - jellyfin
+    - plex
+    - emby
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - name: Kevin Schmidt
+    name: jellyfin
+    sources:
+    - https://hub.docker.com/r/jellyfin/jellyfin
+    - https://github.com/jellyfin/jellyfin
+    urls:
+    - https://github.com/h-s-c/helm-charts/releases/download/jellyfin-9.9.4/jellyfin-9.9.4.tgz
+    version: 9.9.4
   - apiVersion: v2
     appVersion: 10.8.13
     created: "2024-02-07T18:29:51.077747987Z"
@@ -904,6 +976,28 @@ entries:
     version: 4.9.1
   nadybot:
   - apiVersion: v2
+    appVersion: 6.2.9
+    created: "2024-05-17T20:23:32.665493149Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.k8s-at-home.com
+      version: 4.5.2
+    description: Nadybot is a next-generation chatbot for Anarchy Online
+    digest: 9a6618cfeebe1527e0abd196cf78e1703a6531e20c6ffb57034aebb86cf63c17
+    home: https://github.com/h-s-c/helm-charts/nadybot
+    icon: https://raw.githubusercontent.com/Nadybot/Nadybot/unstable/img/nadybot64.png
+    keywords:
+    - nadybot
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - name: Kevin Schmidt
+    name: nadybot
+    sources:
+    - https://github.com/Nadybot/Nadybot
+    urls:
+    - https://github.com/h-s-c/helm-charts/releases/download/nadybot-9.9.6/nadybot-9.9.6.tgz
+    version: 9.9.6
+  - apiVersion: v2
     appVersion: 6.2.8
     created: "2024-03-15T22:33:09.395883416Z"
     dependencies:
@@ -1134,4 +1228,4 @@ entries:
     urls:
     - https://github.com/h-s-c/helm-charts/releases/download/ps3netsrv-9.9.0/ps3netsrv-9.9.0.tgz
     version: 9.9.0
-generated: "2024-03-15T22:33:09.509107835Z"
+generated: "2024-05-17T20:23:32.665604567Z"
