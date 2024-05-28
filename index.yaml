@@ -633,6 +633,31 @@ entries:
     version: 4.5.1
   jellyfin:
   - apiVersion: v2
+    appVersion: 10.9.3
+    created: "2024-05-28T18:35:15.646470563Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.k8s-at-home.com
+      version: 4.5.2
+    description: Jellyfin is a Free Software Media System
+    digest: c0f68a961d8d281848575fa131f2f3a7e036beaa4a3d510232a0bf7918796a72
+    home: https://github.com/h-s-c/helm-charts/jellyfin
+    icon: https://raw.githubusercontent.com/jellyfin/jellyfin-ux/master/branding/SVG/icon-solid-black.svg
+    keywords:
+    - jellyfin
+    - plex
+    - emby
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - name: Kevin Schmidt
+    name: jellyfin
+    sources:
+    - https://hub.docker.com/r/jellyfin/jellyfin
+    - https://github.com/jellyfin/jellyfin
+    urls:
+    - https://github.com/h-s-c/helm-charts/releases/download/jellyfin-9.9.6/jellyfin-9.9.6.tgz
+    version: 9.9.6
+  - apiVersion: v2
     appVersion: 10.9.2
     created: "2024-05-22T20:07:03.512967789Z"
     dependencies:
@@ -1253,4 +1278,4 @@ entries:
     urls:
     - https://github.com/h-s-c/helm-charts/releases/download/ps3netsrv-9.9.0/ps3netsrv-9.9.0.tgz
     version: 9.9.0
-generated: "2024-05-22T20:07:03.513081139Z"
+generated: "2024-05-28T18:35:15.646576971Z"
