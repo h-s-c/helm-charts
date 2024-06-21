@@ -39,13 +39,3 @@ persistence:
   config:
     enabled: false
     mountPath: /nadybot/data/db
-
-# -- Readiness probe configuration
-# @default -- See values.yaml
-probes:
-  liveness:
-    enabled: false
-  readiness:
-    enabled: false
-  startup:
-    enabled: false
