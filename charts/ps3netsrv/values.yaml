@@ -9,7 +9,7 @@ image:
   # -- image repository
   repository: shawly/ps3netsrv
   # -- image tag
-  tag: v1.9.0
+  tag: v1.10.0
   # -- image pull policy
   pullPolicy: IfNotPresent
 
