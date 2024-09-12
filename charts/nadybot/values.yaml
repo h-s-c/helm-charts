@@ -9,7 +9,7 @@ image:
   # -- image repository
   repository: ghcr.io/nadybot/nadybot
   # -- image tag
-  tag: stable
+  tag: nadybot6-20240901-080013
   # -- image pull policy
   pullPolicy: Always
 
