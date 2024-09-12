@@ -729,6 +729,31 @@ entries:
     version: 4.5.1
   jellyfin:
   - apiVersion: v2
+    appVersion: 10.9.11
+    created: "2024-09-12T17:11:39.053843166Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.k8s-at-home.com
+      version: 4.5.2
+    description: Jellyfin is a Free Software Media System
+    digest: fc4fc0e96b6936d1526ae305909a699a60d4df5df4825eba0a174ad685950893
+    home: https://github.com/h-s-c/helm-charts/jellyfin
+    icon: https://raw.githubusercontent.com/jellyfin/jellyfin-ux/master/branding/SVG/icon-solid-black.svg
+    keywords:
+    - jellyfin
+    - plex
+    - emby
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - name: Kevin Schmidt
+    name: jellyfin
+    sources:
+    - https://hub.docker.com/r/jellyfin/jellyfin
+    - https://github.com/jellyfin/jellyfin
+    urls:
+    - https://github.com/h-s-c/helm-charts/releases/download/jellyfin-9.9.11/jellyfin-9.9.11.tgz
+    version: 9.9.11
+  - apiVersion: v2
     appVersion: 10.9.10
     created: "2024-09-06T22:30:21.043940054Z"
     dependencies:
@@ -1222,6 +1247,28 @@ entries:
     version: 4.9.1
   nadybot:
   - apiVersion: v2
+    appVersion: 6.2.10
+    created: "2024-09-12T17:11:39.152831438Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.k8s-at-home.com
+      version: 4.5.2
+    description: Nadybot is a next-generation chatbot for Anarchy Online
+    digest: 2469299680b7bf975effe254d79d06e3bab6bbbebc3307f5fc9759254ad0cc57
+    home: https://github.com/h-s-c/helm-charts/nadybot
+    icon: https://raw.githubusercontent.com/Nadybot/Nadybot/unstable/img/nadybot64.png
+    keywords:
+    - nadybot
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - name: Kevin Schmidt
+    name: nadybot
+    sources:
+    - https://github.com/Nadybot/Nadybot
+    urls:
+    - https://github.com/h-s-c/helm-charts/releases/download/nadybot-9.9.8/nadybot-9.9.8.tgz
+    version: 9.9.8
+  - apiVersion: v2
     appVersion: 6.2.9
     created: "2024-06-21T16:15:03.586810718Z"
     dependencies:
@@ -1520,4 +1567,4 @@ entries:
     urls:
     - https://github.com/h-s-c/helm-charts/releases/download/ps3netsrv-9.9.0/ps3netsrv-9.9.0.tgz
     version: 9.9.0
-generated: "2024-09-06T22:30:21.044137191Z"
+generated: "2024-09-12T17:11:39.153046518Z"
