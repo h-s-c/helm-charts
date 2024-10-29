@@ -2,6 +2,30 @@ apiVersion: v1
 entries:
   audiobookshelf:
   - apiVersion: v2
+    appVersion: 2.16.1
+    created: "2024-10-29T19:41:05.203085177Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.k8s-at-home.com
+      version: 4.5.2
+    description: Self-hosted audiobook server for managing and playing your audiobooks
+    digest: d33044706da412ca48c9935db52b465d0bb3c590ad856160e270a6531bdd7291
+    home: https://github.com/h-s-c/helm-charts/audiobookshelf
+    icon: https://raw.githubusercontent.com/advplyr/audiobookshelf/master/client/static/Logo.png
+    keywords:
+    - audiobookshelf
+    - books
+    - audiobooks
+    kubeVersion: '>= 1.16.0-0'
+    maintainers:
+    - name: Kevin Schmidt
+    name: audiobookshelf
+    sources:
+    - https://github.com/advplyr/audiobookshelf
+    urls:
+    - https://github.com/h-s-c/helm-charts/releases/download/audiobookshelf-9.9.10/audiobookshelf-9.9.10.tgz
+    version: 9.9.10
+  - apiVersion: v2
     appVersion: 2.13.3
     created: "2024-09-06T22:30:20.849892783Z"
     dependencies:
@@ -418,6 +442,29 @@ entries:
     version: 8.5.1
   ersatztv:
   - apiVersion: v2
+    appVersion: 0.8.8
+    created: "2024-10-29T19:41:05.31391512Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.k8s-at-home.com
+      version: 4.5.2
+    description: Your Personal IPTV Server
+    digest: 90e1f0b7bfbab6543d903b895fbeeb055439d3f3109eb023324583ccc74b909d
+    home: https://github.com/h-s-c/helm-charts/ersatztv
+    icon: https://raw.githubusercontent.com/ErsatzTV/ErsatzTV/gh-pages/images/ersatztv.png
+    keywords:
+    - ersatztv
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - name: Kevin Schmidt
+    name: ersatztv
+    sources:
+    - https://hub.docker.com/r/jasongdove/ersatztv
+    - https://github.com/ErsatzTV/ErsatzTV
+    urls:
+    - https://github.com/h-s-c/helm-charts/releases/download/ersatztv-9.9.8/ersatztv-9.9.8.tgz
+    version: 9.9.8
+  - apiVersion: v2
     appVersion: 0.8.7
     created: "2024-08-21T20:26:42.672584215Z"
     dependencies:
@@ -728,6 +775,31 @@ entries:
     - https://github.com/h-s-c/helm-charts/releases/download/intel-gpu-plugin-4.5.1/intel-gpu-plugin-4.5.1.tgz
     version: 4.5.1
   jellyfin:
+  - apiVersion: v2
+    appVersion: 10.10.0
+    created: "2024-10-29T19:41:05.435511364Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.k8s-at-home.com
+      version: 4.5.2
+    description: Jellyfin is a Free Software Media System
+    digest: dae21e5958f899e30bc7c3b23b7227e4e0d5c6dea57b100c0ea4d3bd3795afe4
+    home: https://github.com/h-s-c/helm-charts/jellyfin
+    icon: https://raw.githubusercontent.com/jellyfin/jellyfin-ux/master/branding/SVG/icon-solid-black.svg
+    keywords:
+    - jellyfin
+    - plex
+    - emby
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - name: Kevin Schmidt
+    name: jellyfin
+    sources:
+    - https://hub.docker.com/r/jellyfin/jellyfin
+    - https://github.com/jellyfin/jellyfin
+    urls:
+    - https://github.com/h-s-c/helm-charts/releases/download/jellyfin-9.9.12/jellyfin-9.9.12.tgz
+    version: 9.9.12
   - apiVersion: v2
     appVersion: 10.9.11
     created: "2024-09-12T17:11:39.053843166Z"
@@ -1567,4 +1639,4 @@ entries:
     urls:
     - https://github.com/h-s-c/helm-charts/releases/download/ps3netsrv-9.9.0/ps3netsrv-9.9.0.tgz
     version: 9.9.0
-generated: "2024-09-12T17:11:39.153046518Z"
+generated: "2024-10-29T19:41:05.435743578Z"
