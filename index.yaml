@@ -2,6 +2,30 @@ apiVersion: v1
 entries:
   audiobookshelf:
   - apiVersion: v2
+    appVersion: 2.17.2
+    created: "2024-11-22T17:58:20.559682959Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.k8s-at-home.com
+      version: 4.5.2
+    description: Self-hosted audiobook server for managing and playing your audiobooks
+    digest: 96b4990a2b5c9713e030b6c81c21b7128bea4c66caa2f1e3f4c87112c128dbb7
+    home: https://github.com/h-s-c/helm-charts/audiobookshelf
+    icon: https://raw.githubusercontent.com/advplyr/audiobookshelf/master/client/static/Logo.png
+    keywords:
+    - audiobookshelf
+    - books
+    - audiobooks
+    kubeVersion: '>= 1.16.0-0'
+    maintainers:
+    - name: Kevin Schmidt
+    name: audiobookshelf
+    sources:
+    - https://github.com/advplyr/audiobookshelf
+    urls:
+    - https://github.com/h-s-c/helm-charts/releases/download/audiobookshelf-9.9.11/audiobookshelf-9.9.11.tgz
+    version: 9.9.11
+  - apiVersion: v2
     appVersion: 2.16.1
     created: "2024-10-29T19:41:05.203085177Z"
     dependencies:
@@ -291,6 +315,31 @@ entries:
     version: 1.3.1
   calibre-web:
   - apiVersion: v2
+    appVersion: 0.6.24
+    created: "2024-11-22T17:58:20.701617392Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.k8s-at-home.com
+      version: 4.5.2
+    description: Calibre-Web is a web app providing a clean interface for browsing,
+      reading and downloading eBooks using an existing Calibre database.
+    digest: 138088345265f8063a2f06459739a29285c0c35c7aeb8a7f6592f24414058035
+    home: https://github.com/h-s-c/helm-charts/calibre-web
+    icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/calibre-web-icon.png
+    keywords:
+    - calibre
+    - ebook
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - name: Kevin Schmidt
+    name: calibre-web
+    sources:
+    - https://hub.docker.com/r/linuxserver/calibre-web/
+    - https://github.com/janeczku/calibre-web
+    urls:
+    - https://github.com/h-s-c/helm-charts/releases/download/calibre-web-9.9.5/calibre-web-9.9.5.tgz
+    version: 9.9.5
+  - apiVersion: v2
     appVersion: 0.6.23
     created: "2024-08-21T20:26:42.450991376Z"
     dependencies:
@@ -441,6 +490,29 @@ entries:
     - https://github.com/h-s-c/helm-charts/releases/download/calibre-web-8.5.1/calibre-web-8.5.1.tgz
     version: 8.5.1
   ersatztv:
+  - apiVersion: v2
+    appVersion: 0.8.8
+    created: "2024-11-22T17:58:20.856674605Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.k8s-at-home.com
+      version: 4.5.2
+    description: Your Personal IPTV Server
+    digest: cfa4bd6ad3db654f59938db0d4429bff114462be14c96a582d6b4495eba48529
+    home: https://github.com/h-s-c/helm-charts/ersatztv
+    icon: https://raw.githubusercontent.com/ErsatzTV/ErsatzTV/gh-pages/images/ersatztv.png
+    keywords:
+    - ersatztv
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - name: Kevin Schmidt
+    name: ersatztv
+    sources:
+    - https://hub.docker.com/r/jasongdove/ersatztv
+    - https://github.com/ErsatzTV/ErsatzTV
+    urls:
+    - https://github.com/h-s-c/helm-charts/releases/download/ersatztv-9.9.9/ersatztv-9.9.9.tgz
+    version: 9.9.9
   - apiVersion: v2
     appVersion: 0.8.8
     created: "2024-10-29T19:41:05.31391512Z"
@@ -775,6 +847,31 @@ entries:
     - https://github.com/h-s-c/helm-charts/releases/download/intel-gpu-plugin-4.5.1/intel-gpu-plugin-4.5.1.tgz
     version: 4.5.1
   jellyfin:
+  - apiVersion: v2
+    appVersion: 10.10.3
+    created: "2024-11-22T17:58:21.005499048Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.k8s-at-home.com
+      version: 4.5.2
+    description: Jellyfin is a Free Software Media System
+    digest: 8dc97a87dfb4d15d01c42f5903eed149de2debcb47477ada480da606952199ed
+    home: https://github.com/h-s-c/helm-charts/jellyfin
+    icon: https://raw.githubusercontent.com/jellyfin/jellyfin-ux/master/branding/SVG/icon-solid-black.svg
+    keywords:
+    - jellyfin
+    - plex
+    - emby
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - name: Kevin Schmidt
+    name: jellyfin
+    sources:
+    - https://hub.docker.com/r/jellyfin/jellyfin
+    - https://github.com/jellyfin/jellyfin
+    urls:
+    - https://github.com/h-s-c/helm-charts/releases/download/jellyfin-9.9.13/jellyfin-9.9.13.tgz
+    version: 9.9.13
   - apiVersion: v2
     appVersion: 10.10.0
     created: "2024-10-29T19:41:05.435511364Z"
@@ -1639,4 +1736,4 @@ entries:
     urls:
     - https://github.com/h-s-c/helm-charts/releases/download/ps3netsrv-9.9.0/ps3netsrv-9.9.0.tgz
     version: 9.9.0
-generated: "2024-10-29T19:41:05.435743578Z"
+generated: "2024-11-22T17:58:21.005700555Z"
