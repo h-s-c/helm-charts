@@ -1,9 +1,9 @@
 ---
 apiVersion: v2
-appVersion: 10.10.0
+appVersion: 10.10.3
 description: Jellyfin is a Free Software Media System
 name: jellyfin
-version: 9.9.12
+version: 9.9.13
 kubeVersion: ">=1.16.0-0"
 keywords:
   - jellyfin
